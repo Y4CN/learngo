@@ -23,7 +23,7 @@ import "fmt"
 
 // "func main" is special.
 //
-// Go has to know where to start
+// # Go has to know where to start
 //
 // func main creates a starting point for Go
 //
