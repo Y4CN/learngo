@@ -1,6 +1,6 @@
 package main
 
 func hello() {
-	println("kuangyaode")
+	println("Y4CN")
 	bye()
 }
