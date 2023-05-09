@@ -27,6 +27,6 @@ func main() {
 	println(1, 2, 3)
 	println(1.0, 2.0, 3.0)
 	println(true, false)
-	println("kuangyaode")
-	println("邝耀德")
+	println("Y4CN")
+	println("یاسین")
 }
