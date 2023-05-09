@@ -20,6 +20,7 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	//this should return 0
 	var brightness float64
 	println(brightness)
 }

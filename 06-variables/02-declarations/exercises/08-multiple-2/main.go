@@ -33,6 +33,8 @@ func main() {
 
 	// REPLACE THE QUESTION-MARKS BELOW
 	// WITH THE NAME OF YOUR VARIABLES
+	firstName = "Y4CN"
+	lastName = "YAS"
 
 	fmt.Printf("%q %q\n", firstName, lastName)
 }

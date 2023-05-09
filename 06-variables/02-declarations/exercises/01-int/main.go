@@ -20,6 +20,7 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	//this should return 0
 	var height int
 	println(height)
 }

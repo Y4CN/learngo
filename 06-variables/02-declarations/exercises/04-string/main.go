@@ -25,6 +25,7 @@ func main() {
 	// USE THE BELOW CODE
 	// You'll learn about Printf later
 
+	//this should return ''
 	var s string
 	fmt.Printf("s (%T): %q\n", s, s)
 

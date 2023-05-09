@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Unused
 //
@@ -24,4 +26,5 @@ package main
 func main() {
 	var isLiquid bool
 	_ = isLiquid
+	fmt.Print(isLiquid)
 }

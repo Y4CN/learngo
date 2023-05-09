@@ -20,6 +20,7 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	//this should return false
 	var isOn bool
 	println(isOn)
 }
