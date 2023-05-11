@@ -44,7 +44,7 @@ func main() {
 
 	// ADD YOUR CODE BELOW
 
-	color = "dark green"
+	color = "dark " + color
 
 	// UNCOMMENT THE CODE BELOW TO PRINT THE VARIABLE
 

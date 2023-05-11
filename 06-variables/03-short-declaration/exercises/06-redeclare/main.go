@@ -32,7 +32,8 @@ func main() {
 	age, yourAge := 24, 24
 	age, ratio := 42, 3.14
 
-	// THEN UNCOMMENT THE CODE BELOW
+	// THEN UNCOMMENT THE CODE BELOW s
 
 	fmt.Println(age, yourAge, ratio)
+
 }

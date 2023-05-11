@@ -17,6 +17,7 @@ package main
 //
 // EXPECTED OUTPUT
 //  blue red
+//
 // ---------------------------------------------------------
 
 func main() {
