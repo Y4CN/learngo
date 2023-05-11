@@ -22,5 +22,7 @@ import "fmt"
 func main() {
 	a, b := 10, 5.5
 	a = int(b)
+	//a = 5
+	//b = 5.5
 	fmt.Println(float64(a) + b)
 }

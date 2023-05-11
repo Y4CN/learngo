@@ -8,7 +8,9 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	var apple int
@@ -40,6 +42,7 @@ func main() {
 	// this works: there are two byte values
 	// byte is also an int
 	fmt.Println(string([]byte{104, 105}))
+	fmt.Println(string([]byte{104, 101, 121}))
 
 	_ = apple
 }
