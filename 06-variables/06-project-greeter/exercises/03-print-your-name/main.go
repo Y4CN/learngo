@@ -9,6 +9,7 @@
 package main
 
 import (
+	"fmt"
 	"os"
 )
 
@@ -39,6 +40,7 @@ func main() {
 	// get your name from the command-line
 	// and print it
 	if len(os.Args) < 2 {
+		fmt.Println("You Must Add Your Name")
 		return
 	}
 

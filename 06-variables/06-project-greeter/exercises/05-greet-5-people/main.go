@@ -40,10 +40,12 @@ func main() {
 	// TYPE YOUR CODE HERE
 	n := len(os.Args)
 	if n < 6 {
+		fmt.Println("You Shoul Add 5 Names !!!!")
 		return
 	}
 
 	fmt.Printf("There are %d people!\n", n-1)
+	fmt.Printf("value of string this is %s", os.Args[0])
 	for i := 1; i < n; i++ {
 		fmt.Printf("Hello great %s !\n", os.Args[i])
 	}
