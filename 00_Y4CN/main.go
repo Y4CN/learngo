@@ -1,12 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"os"
-	"strings"
-	"unicode/utf8"
-)
-
 func main() {
 	//get CPU CORE number
 	// fmt.Println(runtime.NumCPU())
@@ -39,10 +32,14 @@ func main() {
 	// fmt.Println(numberString, reallnumber)
 
 	//this is Repeat the !
-	name := os.Args[1]
-	l := utf8.RuneCountInString(name)
-	name = strings.ToUpper(name)
-	rep := strings.Repeat("!", l)
-	s := rep + name + rep
-	fmt.Println(s)
+	// name := os.Args[1]
+	// l := utf8.RuneCountInString(name)
+	// name = strings.ToUpper(name)
+	// rep := strings.Repeat("!", l)
+	// s := rep + name + rep
+	// fmt.Println(s)
+
+	//Create type
+	// type Duration int64
+	// var d Duration
 }
