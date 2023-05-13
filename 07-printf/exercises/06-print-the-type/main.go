@@ -21,5 +21,7 @@ import "fmt"
 
 func main() {
 	i := 3
+	name := "Y4CN"
 	fmt.Printf("Type of %d is %T\n", i, i)
+	fmt.Printf("Type of %s is %T\n", name, name)
 }

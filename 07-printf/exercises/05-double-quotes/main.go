@@ -25,4 +25,10 @@ import "fmt"
 
 func main() {
 	fmt.Printf("%q\n", "hello world")
+	//Type String Values
+	fmt.Printf("%s\n", "hello world")
+	//Type All Values
+	fmt.Printf("%v\n", "hello world")
+	//Type
+	fmt.Printf("%T\n", "hello world")
 }

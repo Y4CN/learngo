@@ -28,4 +28,6 @@ func main() {
 
 	// TYPE YOUR CODE HERE
 	fmt.Printf("These are %t claims.\n", tf)
+	//we can Print Type by Letter => T
+	fmt.Printf("Type this Value is %T\n", tf)
 }

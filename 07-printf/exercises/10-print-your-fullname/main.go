@@ -27,6 +27,10 @@ import (
 // ---------------------------------------------------------
 
 func main() {
+	if len(os.Args) <= 1 {
+		fmt.Println("You Should Add Your Name")
+		return
+	}
 	// BONUS: Use a variable for the format specifier
 	name, lastname := os.Args[1], os.Args[2]
 	f := "Your name is %s and your lastname is %s.\n"

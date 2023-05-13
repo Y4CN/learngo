@@ -27,6 +27,9 @@ import "fmt"
 func main() {
 	// BONUS: Use a variable for the format specifier
 
-	f := "My name is %v and my lastname is %v.\n"
-	fmt.Printf(f, "Yaode", "Kuang")
+	// f := "My name is %v and my lastname is %v.\n"
+	// fmt.Printf(f, "Yaode", "Kuang")
+	fName := "Yasin"
+	lName := "varaste"
+	fmt.Printf("My First Name is %s & my Last Name is %s\n", fName, lName)
 }

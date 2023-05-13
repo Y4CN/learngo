@@ -24,5 +24,6 @@ import "fmt"
 // ---------------------------------------------------------
 
 func main() {
-	fmt.Printf("Temperature is %.1f degrees.\n", 29.5)
+	fmt.Printf("Temperature is %.1f degrees.\n", 29.5239193913919391929391917274183969321319891631312)
+	fmt.Printf("Temperature is %.2f degrees.\n", 29.5249193913919391929391917274183969321319891631312)
 }
