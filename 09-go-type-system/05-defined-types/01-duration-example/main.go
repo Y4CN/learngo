@@ -20,6 +20,16 @@ func main() {
 
 	// 1- adding new methods to the type
 	fmt.Println(h.Hours(), "hours")
+	fmt.Println(h.Minutes(), "min")
+
+	//Time Now
+	fmt.Println("**** This is Time Now ****")
+	j := time.Now()
+	fmt.Println(j.Hour())
+	fmt.Println(j.Minute())
+	fmt.Println(j.Zone())
+	fmt.Println(j.Clock())
+	fmt.Println("***************************")
 
 	// 2- make it a distinct type for type-safety
 	// you can't use the defined type
