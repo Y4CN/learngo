@@ -33,5 +33,5 @@ func main() {
 		Winter
 	)
 
-	fmt.Println(Winter, Spring, Summer, Fall)
+	fmt.Println(Spring, Summer, Fall, Winter)
 }

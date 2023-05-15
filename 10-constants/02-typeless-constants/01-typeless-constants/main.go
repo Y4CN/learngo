@@ -16,4 +16,5 @@ func main() {
 	const pi = 3.14 * min
 
 	fmt.Println(min, pi)
+	fmt.Printf("type min is %T,type pi is %T\n", min, pi)
 }
