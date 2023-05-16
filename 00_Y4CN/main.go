@@ -2,6 +2,9 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
+	"os"
+	"strconv"
 )
 
 func main() {
@@ -99,21 +102,52 @@ func main() {
 	// }
 
 	//for Loop
-	const max = 5
-	fmt.Printf("%5s", "X")
-	for i := 0; i <= max; i++ {
-		fmt.Printf("%5d", i)
-	}
+	//Jadval Zard
+	// const max = 15
+	// fmt.Printf("%5s", "X")
+	// for i := 0; i <= max; i++ {
+	// 	fmt.Printf("%5d", i)
+	// }
 
-	for i := 0; i <= max; i++ {
-		if i == 0 {
-			fmt.Println()
-		}
-		fmt.Printf("%5d", i)
-		for j := 0; j <= max; j++ {
-			fmt.Printf("%5d", i*j)
-		}
-		fmt.Println()
-	}
+	// for i := 0; i <= max; i++ {
+	// 	if i == 0 {
+	// 		fmt.Println()
+	// 	}
+	// 	fmt.Printf("%5d", i)
+	// 	for j := 0; j <= max; j++ {
+	// 		fmt.Printf("%5d", i*j)
+	// 	}
+	// 	fmt.Println()
+	// }
 
+	//Lucky Number
+
+	const turn = 5
+	if len(os.Args) < 2 {
+		fmt.Println("Plz Enter Number")
+		return
+	}
+	guess, err := strconv.Atoi(os.Args[1])
+	if err != nil {
+		fmt.Println("Plz Enter a Number")
+		return
+	}
+	if guess <= 0 {
+		fmt.Println("Plz Enter Positive Number")
+		return
+	}
+	//that was for debugging
+	// guess := 6
+	for i := 0; i < turn; i++ {
+		n := rand.Intn(guess + 1)
+		if n == guess {
+			if i == 0 {
+				fmt.Println("PASHMAAAAAAAAAAAAAAM .....")
+				return
+			}
+			fmt.Println("Nice 😍")
+			return
+		}
+	}
+	fmt.Println("NOOOOO You Lost 😢")
 }

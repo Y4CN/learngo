@@ -11,7 +11,6 @@ package main
 import (
 	"fmt"
 	"math/rand"
-	"time"
 )
 
 func main() {
@@ -23,13 +22,16 @@ func main() {
 
 	// ^-- same:
 
-	rand.Seed(time.Now().UnixNano())
+	//we can Use random type without Seed now this is Depricated
+
+	// rand.Seed(time.Now().UnixNano())
 
 	guess := 10
 
 	for n := 0; n != guess; {
+		// fmt.Println("here is Rand Number ", rand.Intn(10))
 		n = rand.Intn(guess + 1)
-		fmt.Printf("%d ", n)
+		fmt.Printf("%d\n ", n)
 	}
 	fmt.Println()
 }
